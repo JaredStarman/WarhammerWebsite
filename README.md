@@ -10,6 +10,8 @@ screenName(string) - contains the name that other users see of the user
 
 password(string) - the users password to log in
 
+#### 
+
 
 ### map(object) - contains all hexObj
 #### hexObj(object) - an indivudual hex. 
