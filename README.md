@@ -14,8 +14,12 @@ password(string) - the users password to log in
 ### map(object) - contains all hexObj
 #### hexObj(object) - an indivudual hex. 
 L(int) : coordinate left 
+
 R(int):coordinate right 
+
 H(int) : coordinate horizontal
+
 occupyingForceBool(boolean) : true if occupied, false if empty
+
 occupiyingForce(string): name of the army on the square, if any
 
