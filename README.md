@@ -10,6 +10,13 @@ screenName(string) - contains the name that other users see of the user
 
 password(string) - the users password to log in
 
+#### armyGroups{object} - contains all armies that the user has
+
+##### Army{object} - the baseline unit that is controlled by the player on the map
+
+
+
+
 #### 
 
 
