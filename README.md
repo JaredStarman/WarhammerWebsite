@@ -5,7 +5,9 @@ creation of new website for store league
 ## Database objects:
 ### User(object)
 userName(string) - contains the username of the user
+
 screenName(string) - contains the name that other users see of the user
+
 password(string) - the users password to log in
 
 
