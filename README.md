@@ -12,11 +12,11 @@ password(string) - the users password to log in
 
 #### armyGroups{object} - contains all armies that the user has
 
-##### Army{object} - the baseline unit that is controlled by the player on the map
+##### Army{object} - the baseline unit that is controlled by the player on the map 
 
 ArmyName (string) - the name of the army
 
-###### unit{object} - contains the individual unit cards and details. the number of units in an army will equal the number of unit objects
+##### unit{object} - contains the individual unit cards and details. the number of units in an army will equal the number of unit objects{ 
 
 unitName (string) - name of the unit
 
@@ -38,7 +38,7 @@ warlordTrait(string) - contains the warlord trait if the unit has one
 
 psycichPwr(string) - all psychic powers the unit has
 
-
+##### }
 
 
 
