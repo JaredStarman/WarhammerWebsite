@@ -14,14 +14,38 @@ password(string) - the users password to log in
 
 ##### Army{object} - the baseline unit that is controlled by the player on the map
 
+ArmyName (string) - the name of the army
+
+###### unit{object} - contains the individual unit cards and details. the number of units in an army will equal the number of unit objects
+
+unitName (string) - name of the unit
+
+keyWords (string) - contains all unit keywords
+
+unitCost(int) - points cost of the unit
+
+unitCount(int) - # models in the unit
+
+sGT (boolean) - true if the unit has a sergeant
+
+unitEquipment (string) - all standard unit equipment
+
+unitRelics (string) - all relics or relic adjacent upgrades
+
+warlord(boolean) - true if warlord
+
+warlordTrait(string) - contains the warlord trait if the unit has one
+
+psycichPwr(string) - all psychic powers the unit has
 
 
 
-#### 
 
 
 ### map(object) - contains all hexObj
+
 #### hexObj(object) - an indivudual hex. 
+
 L(int) : coordinate left 
 
 R(int):coordinate right 
