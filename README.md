@@ -56,3 +56,7 @@ occupyingForceBool(boolean) : true if occupied, false if empty
 
 occupiyingForce(string): name of the army on the square, if any
 
+
+## Website API
+
+### Post : /User/GetUser : retrieves all user information from database
